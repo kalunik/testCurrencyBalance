@@ -1,0 +1,36 @@
+POST http://localhost:4000/api/v1/2/deposit
+Content-Type: application/json
+
+{
+  "amount": 0.42992301,
+  "currency": "BTC"
+}
+
+###
+POST http://localhost:4000/api/v1/2/deposit
+Content-Type: application/json
+
+{
+  "amount": 5000,
+  "currency": "EUR"
+}
+
+###
+POST http://localhost:4000/api/v1/1/deposit
+Content-Type: application/json
+
+{
+  "amount": 50000.4,
+  "currency": "RUB"
+}
+
+###
+POST http://localhost:4000/api/v1/1/deposit
+Content-Type: application/json
+
+{
+  "amount": 0.0051031,
+  "currency": "ETH"
+}
+
+###
