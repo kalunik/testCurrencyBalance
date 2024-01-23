@@ -1,0 +1,40 @@
+POST http://localhost:4000/api/v1/2/withdrawal
+Content-Type: application/json
+
+{
+  "amount": 0.42992301,
+  "currency": "BTC",
+  "card_number" : "1025524252115"
+}
+
+###
+POST http://localhost:4000/api/v1/2/withdrawal
+Content-Type: application/json
+
+{
+  "amount": 5000,
+  "currency": "EUR",
+  "card_number" : "1025524252115"
+}
+
+###
+POST http://localhost:4000/api/v1/1/withdrawal
+Content-Type: application/json
+
+{
+  "amount": 50000.4,
+  "currency": "RUB",
+  "card_number" : "1025524252115"
+}
+
+###
+POST http://localhost:4000/api/v1/1/withdrawal
+Content-Type: application/json
+
+{
+  "amount": 0.0051031,
+  "currency": "ETH",
+  "card_number" : "1025524252115"
+}
+
+###

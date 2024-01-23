@@ -1,0 +1,23 @@
+server:
+  Port: ":4000"
+  SSL: false
+  CtxDefaultTimeout: 12
+
+postgres:
+  Host: "localhost"
+  Port: "5432"
+  User: "admin"
+  Password: "adminpass"
+  DbName: "postgres"
+  SSLMode: "disable"
+  PoolMaxConns: 5
+
+nats:
+  Host: "localhost"
+  Port: ":4222"
+  Cluster: "test-cluster"
+  Client: "admin"
+  Subject: "wallet"
+  DurableName: "test"
+  ReconnectInterval: 12
+  ServerPort: ":4000"
